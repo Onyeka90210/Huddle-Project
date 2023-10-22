@@ -14,42 +14,55 @@ body{
     background: url(Assets/bg-mobile.svg) no-repeat hsl(257, 40%, 49%) cover ;
 }
 nav img{
-    width: 41%;
+    width: 30%;
 }
 nav{
-    padding-top: 2rem;
+    padding-top: 1.5rem;
 }
 .container{
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
-header img{
-    max-width: 100%;
 
-}
 header{
+    margin: auto;
     margin-top: 30px;
     /* height: 29rem; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    text-align: center;
+        
 }
-.header-inner{
-display: flex;
-flex-direction: column;
-gap:20px
-
+.header-inner{   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    gap:20px
+    
+}
+.header-image{
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
 .header-inner h2{
     color: white;
     font-family: 'Poppins', sans-serif;
+    width: 90px;
+    margin: auto;
+    padding-top: 20px;
     width: 90%;
+    font-size: 25px;
+    line-height: 2.2rem;
+
     
 }
 .header-inner p{
   color: white;
   font-family: 'Open Sans', sans-serif;
+  margin: auto;
+  font-size: 15px;
+  width: 95%;
   
 }
 .header-inner button{
@@ -64,39 +77,83 @@ gap:20px
     font-size: 13px;
     box-shadow: -1px 2px 5px rgb(70,68,68);
 }
+.logo{
+    margin-top: -20px;
+    width: 20px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
 
-footer img{
-    width: 10px;
 
 }
+.header img{
+    width: 100%;   
+}
+footer img{
+    width: 30px;
+}
+    
 @media(min-width: 1024px){
     body{
-        background: url(Assets/bg-desktop.svg) no-repeat hsl(257, 40%, 49%) cover ;
+        background: url(Assets/bg-desktop.svg) no-repeat hsl(257, 40%, 49%) ;
     }
     header{
+        width: 10px;
         flex-direction: row;
+
     }
     nav img{
         width: 18%;
         padding-bottom: 3rem;
     }
     .header-inner{
-        padding-top: 3rem;
+        padding-top: 1rem;
+        Width: 80%;
+        margin: auto;
         text-align: start;
-        Width: 37%;
+
+        
+
+    }
+    .header-inner h2{
+        margin-top: -240px;
+        width: 100%;
+        font-size: 35px;
+        padding-right: 120px;
+        line-height: 3.3rem;
+   
+
+    }
+    .header-inner p{
+        width: 100%;
+        font-size: 17px;
+        padding-right: 102px;
     }
     .header-inner button{
         margin: 0;
         width: 30%;
-
+        font-size: 17px;
+    
     }
+
     .header img{
-        width: 750px;   
+        width: 740px
+    }    
+    .header-image{
+        width: 110%;
+    }
+    .container{
+        width: 90%;
+        margin: auto;
 
     }
-    .header-inner h2{
-        width: 80%;
-        font-size: 34px;
-    }
+    .logo{
+        margin-top: -30px;
+        width: 20px;
+        padding-top: 15px;
+        margin-right: 240px;
 
-}
+    }
+    
+    
